@@ -1,0 +1,48 @@
+/*
+Copyright 2013 Kommunal- og regionaldepartementet.
+
+This file is part of minsak.no.
+
+Minsak.no is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License version 3 as published by the Free Software Foundation.
+
+Minsak.no is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with minsak.no. If not, see http://www.gnu.org/licenses/gpl-3.0.html.
+*/
+
+
+.hidden {
+	display: none;
+}
+
+.stats-table th {
+	text-align: left;
+	vertical-align: bottom;
+}
+
+.stats-table.colwidth th {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.stats-table.colwidth td {
+	text-align: center;
+}
+
+.stats-table td {
+	text-align: right;
+}
+
+.stats-table tr:nth-child(even) td, .stats-table tr:nth-child(even) th {
+	background-color: #f7f7f7;
+}
+
+.stats-table {
+	border-spacing: 1px;
+	border-collapse: separate;
+}
+
+.stats-table td, .stats-table th {
+	margin: 0;
+	padding: 3px;
+}

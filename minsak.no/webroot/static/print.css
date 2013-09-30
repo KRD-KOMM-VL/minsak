@@ -1,0 +1,59 @@
+/*
+Copyright 2013 Kommunal- og regionaldepartementet.
+
+This file is part of minsak.no.
+
+Minsak.no is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License version 3 as published by the Free Software Foundation.
+
+Minsak.no is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with minsak.no. If not, see http://www.gnu.org/licenses/gpl-3.0.html.
+*/
+
+
+.logo-print{
+	position:static;
+	left:auto;
+	float:left;
+}
+body,
+#wrapper,
+.w1,
+.top-block,
+#header,
+#header .holder,
+.text-area,
+.text-area .holder,
+.text-area .frame,
+.txt,
+.describe,
+.describe .holder,
+.describe .frame{background:#fff !important;}
+.logo,
+.top-block,
+#sidebar,
+#footer,
+.top-shadow,
+.breadcrumbs,
+.form-block,
+.more-holder,
+.text-be-heard,
+.steps{display:none;}
+.recents li{margin-right:0;}
+#wrapper,
+#main,
+#content{
+	float:none;
+	width:100%;
+	overflow:visible;
+	padding:0;
+	margin:0;
+}
+.main-form .column{padding:0 15px 0 0;}
+.main-form input,
+.main-form textarea,
+.comment-form input,
+.comment-form textarea{border:1px solid #000 !important;}
+.main-form .cancel,
+.main-form .submit,
+.comment-form .submit{border:0 !important;}
